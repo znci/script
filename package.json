@@ -1,0 +1,24 @@
+{
+  "name": "znci-script",
+  "version": "1.0.0",
+  "description": "A custom language for znci.",
+  "main": "compiler.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "nodemon ./compiler.js"
+  },
+  "keywords": [
+    "language",
+    "znci",
+    "script"
+  ],
+  "author": "znci",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "fancy-time": "^1.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
